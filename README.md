@@ -32,7 +32,7 @@ Here is the model’s performance on the validation set:
 
 Model accuracy: ~78%
 
-![Model Results](screenshots/accuracy.png)
+![Model Results](screenshots/accuracy.PNG)
 
 
 ## Installation
