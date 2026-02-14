@@ -1,28 +1,28 @@
 # Titanic Survival Prediction
 
 ## Overview
-This project aims to predict passenger survival on the Titanic using machine learning techniques. The dataset is sourced from the [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic) and contains passenger information such as age, gender, class, and fare.  
+This project predicts passenger survival on the Titanic using machine learning techniques. The dataset is sourced from the [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic) and contains passenger information such as age, gender, class, and fare.  
 
-The goal is to build a predictive model that can accurately classify whether a passenger survived or not based on the available features.
+The goal of this project is to gain practical experience in **preprocessing real-world datasets** and to explore **different strategies for handling various data challenges**.
 
 ---
 
 ## Features
-The dataset includes the following key features:
+Key features in the dataset include:
 
-- **PassengerId** – Unique ID for each passenger
-- **Pclass** – Ticket class (1st, 2nd, 3rd)
-- **Name, Sex, Age** – Personal details
-- **SibSp, Parch** – Number of siblings/spouses and parents/children aboard
-- **Ticket, Fare, Cabin, Embarked** – Ticket and travel details
+- **PassengerId** – Unique ID for each passenger  
+- **Pclass** – Ticket class (1st, 2nd, 3rd)  
+- **Name, Sex, Age** – Personal details  
+- **SibSp, Parch** – Number of siblings/spouses and parents/children aboard  
+- **Ticket, Fare, Cabin, Embarked** – Ticket and travel details  
 
 ---
 
 ## Methods
 - Data cleaning and preprocessing  
-- Exploratory Data Analysis (EDA)  
 - Feature engineering  
-- Model selection: Logistic Regression, Random Forest, Gradient Boosting   
+- Model selection: Logistic Regression, Random Forest, Gradient Boosting  
+- Model evaluation using accuracy, precision, recall, and F1-score  
 
 ---
 
@@ -31,8 +31,7 @@ The dataset includes the following key features:
 
 ```bash
 git clone https://github.com/yourusername/Titanic-Survival-Prediction.git
-cd titanic_survival_prediction
-```
+cd Titanic-Survival-Prediction
 
 pip install -r requirements.txt
-
+```
