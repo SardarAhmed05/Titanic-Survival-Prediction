@@ -26,6 +26,15 @@ Key features in the dataset include:
 
 ---
 
+## Results
+
+Here is the model’s performance on the validation set:
+
+Model accuracy: ~78%
+
+![Model Results](screenshots/accuracy.png)
+
+
 ## Installation
 1. Clone the repository:
 
