@@ -35,7 +35,7 @@ Key features in the dataset include:
 | Kaggle Score | 0.77990 |
 
 ![Kaggle Results](images/accuracy.PNG)
-![Model Accuracy](images/val_accuracy.PNG)
+![Model Accuracy](images/val_accuracy.png)
 
 ---
 
