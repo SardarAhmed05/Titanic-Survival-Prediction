@@ -9,7 +9,6 @@ The goal of this project is to gain practical experience in **preprocessing real
 
 ## Features
 Key features in the dataset include:
-
 - **PassengerId** – Unique ID for each passenger  
 - **Pclass** – Ticket class (1st, 2nd, 3rd)  
 - **Name, Sex, Age** – Personal details  
@@ -19,28 +18,31 @@ Key features in the dataset include:
 ---
 
 ## Methods
-- Data cleaning and preprocessing  
-- Feature engineering  
-- Model selection: Logistic Regression, Random Forest, Gradient Boosting  
-- Model evaluation using accuracy, precision, recall, and F1-score  
+- Data cleaning and preprocessing (missing value imputation, outlier analysis)
+- Feature engineering (`Title` extracted from Name, `FamilySize` from SibSp + Parch)
+- Encoding: Label Encoding for binary columns, One-Hot Encoding for Embarked
+- Log transformation on Fare to reduce skewness, Standard Scaling on Age and Fare
+- Model: Logistic Regression
+- Evaluation using train/validation split (80/20)
 
 ---
 
 ## Results
 
-Here is the model’s performance on the validation set:
+| Metric | Score |
+|---|---|
+| Validation Accuracy | ~78% |
+| Kaggle Score | 0.77990 |
 
-Model accuracy: ~78%
+![Kaggle Results](images/accuracy.PNG)
+![Model Accuracy](images/val_accuracy.PNG)
 
-![Model Results](screenshots/accuracy.PNG)
-
+---
 
 ## Installation
 1. Clone the repository:
-
 ```bash
-git clone https://github.com/yourusername/Titanic-Survival-Prediction.git
+git clone https://github.com/SardarAhmed05/Titanic-Survival-Prediction.git
 cd Titanic-Survival-Prediction
-
 pip install -r requirements.txt
 ```
